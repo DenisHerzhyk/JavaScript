@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#colorFlipper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.button-flipper {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}

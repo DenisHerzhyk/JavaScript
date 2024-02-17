@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="content">
+        <h1>TIC TAC TOE</h1>
+        <p id="instruction">
+            Game starts by just Tap on box
+            <br>
+            <br>
+            First Player starts as <strong>Player X</strong> And Second Player as <strong>Player 0</strong> 
+        </p>
+        <br><br>
+        <div class="game">
+            <div class="row">
+                <input type="text" class="cell" id="b1" onclick="myFunc_3(); myFunc();" readonly>
+                <input type="text" class="cell" id="b2" onclick="myFunc_4(); myFunc();" readonly>
+                <input type="text" class="cell" id="b3" onclick="myFunc_5(); myFunc();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" class="cell" id="b4" onclick="myFunc_6(); myFunc();" readonly>
+                <input type="text" class="cell" id="b5" onclick="myFunc_7(); myFunc();" readonly>
+                <input type="text" class="cell" id="b6" onclick="myFunc_8(); myFunc();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" class="cell" id="b7" onclick="myFunc_9(); myFunc();" readonly>
+                <input type="text" class="cell" id="b8" onclick="myFunc_10(); myFunc();" readonly>
+                <input type="text" class="cell" id="b9" onclick="myFunc_11(); myFunc();" readonly>
+            </div>
+        </div>
+        <br><br><br>
+        <button id="reset" onclick="reload_func();">Reset</button>
+        <br><br>
+        <p id="print"></p>
+    </div>
+</body>
+</html>

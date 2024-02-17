@@ -1,0 +1,127 @@
+h1 {
+    color: orangered;
+    margin-top: 5px;
+    font-family: "Roboto";
+}
+
+p {
+    margin-top: 10px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    border: none; 
+    width: 80px; 
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px; 
+    text-align: center; 
+    cursor: pointer; 
+}
+
+.cell:active { 
+    outline: none; 
+    background-color: rgb(236, 236, 236);
+} 
+
+#b1{ 
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    border-right: 1px solid rgb(0, 0, 0); 
+} 
+  
+#b2 { 
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    border-right: 1px solid rgb(0, 0, 0); 
+    border-left: 1px solid rgb(0, 0, 0); 
+} 
+  
+#b3 { 
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    border-left: 1px solid rgb(0, 0, 0); 
+} 
+  
+#b4 { 
+    border-top: 1px solid rgb(0, 0, 0); 
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    border-right: 1px solid rgb(0, 0, 0); 
+} 
+      
+#b5 { 
+    border: 1px solid rgb(0, 0, 0); 
+} 
+  
+#b6 { 
+    border-top: 1px solid rgb(0, 0, 0); 
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    border-left: 1px solid rgb(0, 0, 0); 
+} 
+  
+#b7 { 
+    border-top: 1px solid rgb(0, 0, 0); 
+    border-right: 1px solid rgb(0, 0, 0); 
+} 
+  
+#b8 { 
+    border-top: 1px solid rgb(0, 0, 0); 
+    border-right: 1px solid rgb(0, 0, 0); 
+    border-left: 1px solid rgb(0, 0, 0); 
+} 
+  
+#b9 { 
+    border-top: 1px solid rgb(0, 0, 0); 
+    border-left: 1px solid rgb(0, 0, 0); 
+} 
+
+#but { 
+    box-sizing: border-box; 
+    width: 95px; 
+    height: 40px; 
+    border: 1px solid dodgerblue; 
+    margin-left: auto; 
+    border-radius: 8px; 
+    font-family: Verdana, Tahoma, sans-serif; 
+    background-color: whitesmoke; 
+    color: dodgerblue; 
+    font-size: 20px; 
+    cursor: pointer; 
+} 
+  
+#print { 
+    font-family: "Roboto"; 
+    color: dodgerblue; 
+    font-size: 20px; 
+} 
+  
+#content { 
+    text-align: center; 
+} 
+  
+#instruction {  
+    font-family: "Roboto"; 
+    color: rgb(0, 0, 0); 
+}
+
+#reset {
+    padding: 15px 40px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: rgb(227, 227, 227);
+}
